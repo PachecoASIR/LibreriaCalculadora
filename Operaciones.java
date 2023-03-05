@@ -23,6 +23,9 @@ public class Operaciones {
                 case 4:
                     resultado = n1/n2;
                     break;
+                case 5:
+                    resultado = Math.pow(n1, 1/n2);
+                    break;
           }
         }catch(InputMismatchException ex){
             System.out.println(ex);
